@@ -4,6 +4,9 @@
 
 package com.mycompany.gymproducts;
 
+import capaPresentacion.Login;
+
+
 /**
  *
  * @author Santiago Vides
@@ -11,6 +14,9 @@ package com.mycompany.gymproducts;
 public class GymProducts {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        
+        Login login = new Login();
+        login.setVisible(true);
+        login.setLocationRelativeTo(null);
     }
 }
