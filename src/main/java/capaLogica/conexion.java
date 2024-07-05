@@ -16,6 +16,7 @@ public class conexion {
     
     static Connection conn = null;
     
+    //coneccion con la DB
     public static Connection conectar(){
         String url = "jdbc:mysql://localhost:3306/ecommerce?zeroDateTimeBehavior=CONVERT_TO_NULL";
         try{
